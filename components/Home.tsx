@@ -14,7 +14,7 @@ const Home: React.FC = () => {
           <span className="text-gray-300">Powered by ChatGPT</span>
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 max-w-3xl font-header">
+        <h1 className="text-5xl md:text-6xl font-bold text-gray-300 mb-6 max-w-3xl font-header">
           AI Website Builder
         </h1>
 
