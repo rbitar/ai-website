@@ -1,21 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from './Header';
 
 const About: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col">
-      {/* Header */}
-      <header className="flex justify-between items-center p-6">
-        <div className="text-xl font-bold font-header">AI WEBSITE</div>
-        <div className="flex gap-4">
-          <Link
-            to="/"
-            className="text-white hover:text-gray-300 transition-colors"
-          >
-            Home
-          </Link>
-        </div>
-      </header>
+      <Header showAboutLink={false} showHomeLink={true} />
 
       {/* About Content */}
       <main className="flex-grow flex flex-col items-center justify-center px-4 text-center py-12">

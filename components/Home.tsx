@@ -1,24 +1,11 @@
 import React from 'react';
 import Button from './Button';
-import { Link } from 'react-router-dom';
+import Header from './Header';
 
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col">
-      {/* Header */}
-      <header className="flex justify-between items-center p-6">
-        <div className="text-xl font-bold font-header">AI WEBSITE</div>
-        <div className="flex gap-4">
-          <Link
-            to="/about"
-            className="text-white hover:text-gray-300 transition-colors flex items-center"
-          >
-            About
-          </Link>
-          <Button variant="secondary">Sign in</Button>
-          <Button variant="primary">Sign up</Button>
-        </div>
-      </header>
+      <Header showAboutLink={true} showHomeLink={false} />
 
       {/* Hero Section */}
       <main className="flex-grow flex flex-col items-center justify-center px-4 text-center">
