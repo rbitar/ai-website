@@ -13,7 +13,7 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <header className="flex justify-between items-center p-6">
-      <div className="text-xl font-bold font-header">AI WEBSITE</div>
+      <div className="text-xl font-bold font-logo">AI WEBSITE</div>
       <div className="flex gap-4">
         {showAboutLink && (
           <Link
