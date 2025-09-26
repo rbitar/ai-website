@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Button from './Button';
-import Header from './Header';
 
 const Home: React.FC = () => {
   const [input, setInput] = useState('');
@@ -87,8 +86,6 @@ const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col font-mono">
-      <Header showAboutLink={true} showHomeLink={false} />
-
       {/* Terminal Window */}
       <main
         ref={terminalRef}
@@ -109,7 +106,7 @@ const Home: React.FC = () => {
           </div>
 
           {/* Terminal content */}
-          <div className="bg-black border border-gray-700 rounded-lg p-4 h-[calc(100vh-180px)]">
+          <div className="bg-black border border-gray-700 rounded-lg p-4 h-[calc(100vh-120px)]">
             {output.map((line, index) => (
               <div key={index} className="mb-1">
                 {line}
