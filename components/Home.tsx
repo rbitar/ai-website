@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <main className="flex-grow flex flex-col items-center justify-center px-4 text-center">
         <div className="inline-flex items-center justify-center gap-2 bg-gray-800 rounded-full px-4 py-2 mb-8">
-          <i className="ri-openai-fill text-white text-lg"></i>
+          <i className="ri-openai-fill text-white text-lg animate-pulse"></i>
           <span className="text-gray-300">Powered by ChatGPT</span>
         </div>
 
