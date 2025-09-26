@@ -6,12 +6,7 @@ const About: React.FC = () => {
     <div className="min-h-screen bg-gray-900 flex flex-col">
       {/* Header */}
       <header className="flex justify-between items-center p-6">
-        <div
-          className="text-xl font-bold"
-          style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-        >
-          AI WEBSITE
-        </div>
+        <div className="text-xl font-bold font-header">AI WEBSITE</div>
         <div className="flex gap-4">
           <Link
             to="/"
@@ -24,7 +19,7 @@ const About: React.FC = () => {
 
       {/* About Content */}
       <main className="flex-grow flex flex-col items-center justify-center px-4 text-center py-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-header">
           About AI Website Builder
         </h1>
 
@@ -37,7 +32,9 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl">
           <div className="bg-gray-800 p-6 rounded-lg">
             <i className="ri-brain-line text-blue-500 text-3xl mb-4"></i>
-            <h2 className="text-xl font-bold text-white mb-2">AI-Powered</h2>
+            <h2 className="text-xl font-bold text-white mb-2 font-header">
+              AI-Powered
+            </h2>
             <p className="text-gray-400">
               Our advanced AI understands your vision and creates a website that
               matches your requirements.
@@ -46,7 +43,7 @@ const About: React.FC = () => {
 
           <div className="bg-gray-800 p-6 rounded-lg">
             <i className="ri-flashlight-line text-blue-500 text-3xl mb-4"></i>
-            <h2 className="text-xl font-bold text-white mb-2">
+            <h2 className="text-xl font-bold text-white mb-2 font-header">
               Lightning Fast
             </h2>
             <p className="text-gray-400">
@@ -57,7 +54,9 @@ const About: React.FC = () => {
 
           <div className="bg-gray-800 p-6 rounded-lg">
             <i className="ri-edit-box-line text-blue-500 text-3xl mb-4"></i>
-            <h2 className="text-xl font-bold text-white mb-2">Easy Editing</h2>
+            <h2 className="text-xl font-bold text-white mb-2 font-header">
+              Easy Editing
+            </h2>
             <p className="text-gray-400">
               Fine-tune your website with simple prompts. Make changes as easily
               as you make them.

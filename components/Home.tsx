@@ -7,12 +7,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-gray-900 flex flex-col">
       {/* Header */}
       <header className="flex justify-between items-center p-6">
-        <div
-          className="text-xl font-bold"
-          style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-        >
-          AI WEBSITE
-        </div>
+        <div className="text-xl font-bold font-header">AI WEBSITE</div>
         <div className="flex gap-4">
           <Link
             to="/about"
@@ -32,10 +27,7 @@ const Home: React.FC = () => {
           <span className="text-gray-300">Powered by ChatGPT</span>
         </div>
 
-        <h1
-          className="text-5xl md:text-6xl font-bold text-white mb-6 max-w-3xl"
-          style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-        >
+        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 max-w-3xl font-header">
           AI Website Builder
         </h1>
 

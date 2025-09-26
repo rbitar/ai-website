@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
   className = '',
 }) => {
   const baseClasses =
-    'px-6 py-3 rounded-lg font-medium transition-all duration-300';
+    'px-6 py-3 rounded-lg font-medium transition-all duration-300 font-body';
 
   const variantClasses =
     variant === 'primary'
